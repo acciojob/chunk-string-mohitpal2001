@@ -8,6 +8,6 @@ for (var i = 0; i < str.length; i += size) {
 }
 
 // Do not change the code below
-// const str = prompt("Enter String.");
-// const size = prompt("Enter Chunk Size.");
-// alert(stringChop(str, size));
+const str = prompt("Enter String.");
+const size = prompt("Enter Chunk Size.");
+alert(stringChop(str, size));
